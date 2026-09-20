@@ -1,19 +1,21 @@
-// Language switcher (JP default / EN / CH)
-// Japanese text is taken from the HTML itself; EN/ZH strings live in the
+// Language switcher (JP default / EN / CN / FR / DE)
+// Japanese text is taken from the HTML itself; EN/ZH/FR/DE strings live in the
 // dictionaries below. Keys missing from a dictionary fall back to Japanese.
 (function () {
     const PAGE_TITLES = {
-        ja: '札幌すごいAI映画祭 2026夏 | 作品募集中',
-        en: 'Sapporo Sugoi AI Film Festival 2026 Summer | Now Accepting Entries',
-        zh: '札幌超赞AI电影节 2026夏 | 作品征集中'
+        ja: '札幌すごいAI映画祭 2026冬 | 作品募集中',
+        en: 'Sapporo Sugoi AI Film Festival 2026 Winter | Now Accepting Entries',
+        zh: '札幌超赞AI电影节 2026冬 | 作品征集中',
+        fr: 'Sapporo Sugoi AI Film Festival Hiver 2026 | Candidatures ouvertes',
+        de: 'Sapporo Sugoi AI Film Festival Winter 2026 | Einreichungen geöffnet'
     };
 
     const I18N = {
         en: {
             // Hero
             'hero-badge': 'Now Accepting Entries',
-            'title-main': 'Sapporo Sugoi AI Film Festival 2026 Summer',
-            'title-sub': '札幌すごいAI映画祭 2026夏',
+            'title-main': 'Sapporo Sugoi AI Film Festival 2026 Winter',
+            'title-sub': '札幌すごいAI映画祭 2026冬',
             'hero-tagline': 'Try making a film with AI.<br>Every creator\'s work on screen in Sapporo.',
             'badge-onsite': 'Big-screen venue screening',
             'badge-youtube': 'YouTube streaming',
@@ -27,7 +29,7 @@
             'overview-p1': 'A community film festival where anyone can experience filmmaking with generative AI. Everyone is welcome, from beginners to experienced creators.',
             'overview-p2': 'Your AI film will be screened on the roughly 200-inch wall-sized screen at <strong>Deep Tech CORE SAPPORO</strong>, reaching audiences both on site and via simultaneous YouTube streaming.',
             'info-label-date': 'Date',
-            'info-value-date': 'Saturday, August 29, 2026, 10:00–13:00',
+            'info-value-date': 'Saturday, December 5, 2026, 10:00–13:00',
             'info-label-venue': 'Venue',
             'info-label-format': 'Format',
             'info-value-format': 'Venue screening + YouTube streaming',
@@ -102,7 +104,7 @@
             'cond-li7': 'Any language is fine (including fictional or constructed languages)',
             'cond-li8': 'Works not in Japanese, or with unnatural Japanese, must include Japanese subtitles',
             'cond-li9': 'For the Screening Division, remove watermarks where possible, unless they carry special meaning, serve the presentation, or are a matter of the soul<br>(no removal needed for the Experimental Division)',
-            'cond-li10': 'Comply with the <a href="guideline.html" target="_blank" rel="noopener noreferrer" class="guideline-link">SAIFF 2026 Summer Production Guidelines</a>',
+            'cond-li10': 'Comply with the <a href="guideline.html" target="_blank" rel="noopener noreferrer" class="guideline-link">SAIFF 2026 Winter Production Guidelines</a>',
             'apply-form-title': 'What to Submit',
             'apply-form-sub': 'Please submit the following information',
             'form-li1': 'Email address',
@@ -156,20 +158,20 @@
             'social-discord': '💬 Discord: Sapporo Sugoi AI-kai',
             'btn-mail': '✉️ Contact by Email',
             // Footer
-            'footer-title': 'Sapporo Sugoi AI Film Festival 2026 Summer',
+            'footer-title': 'Sapporo Sugoi AI Film Festival 2026 Winter',
             'footer-link-overview': 'Overview',
             'footer-link-divisions': 'Divisions',
             'footer-link-apply': 'How to Apply',
             'footer-org': 'Organizer: Sapporo Sugoi AI-kai',
             'footer-venue': 'Venue support: Deep Tech CORE SAPPORO',
-            'footer-matsuri': 'This film festival is held as part of Sapporo Sugoi AI Matsuri 2026 Summer',
+            'footer-matsuri': 'This film festival is held as part of Sapporo Sugoi AI Matsuri 2026 Winter',
             'footer-disclaimer': '* This event is run by individual volunteers and does not represent any company or commercial organization.'
         },
         zh: {
             // Hero
             'hero-badge': '作品征集中',
-            'title-main': '札幌超赞AI电影节 2026夏',
-            'title-sub': 'Sapporo Sugoi AI Film Festival 2026 Summer',
+            'title-main': '札幌超赞AI电影节 2026冬',
+            'title-sub': 'Sapporo Sugoi AI Film Festival 2026 Winter',
             'hero-tagline': '用AI挑战电影创作。<br>每位创作者的作品，都在札幌上映。',
             'badge-onsite': '现场大银幕上映',
             'badge-youtube': 'YouTube同步直播',
@@ -183,7 +185,7 @@
             'overview-p1': '这是一个人人都能体验生成式AI影像创作的社区型电影节。无论新手还是老手，都热烈欢迎。',
             'overview-p2': '你创作的AI电影，将在 <strong>Deep Tech CORE SAPPORO</strong> 整面墙约200英寸的大银幕上放映，并通过现场观影与YouTube同步直播送达更多观众。',
             'info-label-date': '举办日期',
-            'info-value-date': '2026年8月29日（周六）10:00〜13:00',
+            'info-value-date': '2026年12月5日（周六）10:00〜13:00',
             'info-label-venue': '会场',
             'info-label-format': '放映形式',
             'info-value-format': '会场银幕放映 ＋ YouTube直播',
@@ -258,7 +260,7 @@
             'cond-li7': '语言不限（架空语言、人造语言等不存在的语言也可以）',
             'cond-li8': '非日语作品或日语不自然的作品须添加日语字幕',
             'cond-li9': '上映作品单元的作品，除具有特殊意义、演出效果或灵魂层面的原因外，请尽量去除水印<br>（实验单元无需去除）',
-            'cond-li10': '符合<a href="guideline.html" target="_blank" rel="noopener noreferrer" class="guideline-link">札幌超赞AI电影节 2026夏 制作指南</a>的要求',
+            'cond-li10': '符合<a href="guideline.html" target="_blank" rel="noopener noreferrer" class="guideline-link">札幌超赞AI电影节 2026冬 制作指南</a>的要求',
             'apply-form-title': '报名内容',
             'apply-form-sub': '请提交以下信息',
             'form-li1': '电子邮箱',
@@ -312,16 +314,330 @@
             'social-discord': '💬 Discord: 札幌超赞AI会',
             'btn-mail': '✉️ 邮件咨询',
             // Footer
-            'footer-title': '札幌超赞AI电影节 2026夏',
+            'footer-title': '札幌超赞AI电影节 2026冬',
             'footer-link-overview': '活动概要',
             'footer-link-divisions': '征集单元',
             'footer-link-apply': '报名方式',
             'footer-org': '主办：札幌超赞AI会',
             'footer-venue': '会场协助：Deep Tech CORE SAPPORO',
-            'footer-matsuri': '本电影节作为"札幌超赞AI祭 2026夏"的一部分举办',
+            'footer-matsuri': '本电影节作为"札幌超赞AI祭 2026冬"的一部分举办',
             'footer-disclaimer': '※本活动为个人志愿者活动，不代表任何特定企业或营利团体。'
+        },
+        fr: {
+            // Hero
+            'hero-badge': 'Candidatures ouvertes',
+            'title-main': 'Sapporo Sugoi AI Film Festival Hiver 2026',
+            'title-sub': '札幌すごいAI映画祭 2026冬',
+            'hero-tagline': 'Essayez de réaliser un film avec l’IA.<br>L’œuvre de chaque créateur sur grand écran, à Sapporo.',
+            'badge-onsite': 'Projection sur grand écran',
+            'badge-youtube': 'Diffusion sur YouTube',
+            'badge-beginner': 'Débutants bienvenus',
+            'btn-submit': 'Proposer votre film',
+            'btn-learn-article': 'Apprendre avec des articles',
+            'btn-learn-video': 'Apprendre avec des vidéos',
+            // Overview
+            'sec-overview': 'Présentation de l’événement',
+            'overview-subtitle': 'Un festival de films IA, à Sapporo.',
+            'overview-p1': 'Un festival de cinéma communautaire où chacun peut s’initier à la création de films avec l’IA générative. Tout le monde est le bienvenu, des débutants aux créateurs expérimentés.',
+            'overview-p2': 'Votre film IA sera projeté sur l’écran mural d’environ 200 pouces de <strong>Deep Tech CORE SAPPORO</strong>, devant le public sur place et via une diffusion simultanée sur YouTube.',
+            'info-label-date': 'Date',
+            'info-value-date': 'Samedi 5 décembre 2026, 10:00–13:00',
+            'info-label-venue': 'Lieu',
+            'info-label-format': 'Format',
+            'info-value-format': 'Projection sur place + diffusion sur YouTube',
+            'info-label-fee': 'Tarif',
+            'info-value-fee': 'Gratuit (candidature, participation et visionnage)',
+            'info-label-reserve': 'Inscription préalable',
+            'info-value-reserve': 'Non requise (venez simplement sur place)',
+            'info-label-deadline': 'Date limite de candidature',
+            'info-value-deadline': 'Dimanche 16 août 2026, 23:59 (JST)',
+            'overview-note': '* Les candidatures peuvent être clôturées par anticipation sans préavis.',
+            // About
+            'sec-about': 'À propos du festival',
+            'about-origin': 'Moi, l’organisateur, j’ai moi-même participé un jour à un concours de films IA. Je n’ai pas gagné — mais j’ai ressenti de près à quel point la passion pour le cinéma IA est en train de monter.<br>Je veux en faire quelque chose que chacun peut tenter, ici même, à Sapporo.<br><span class="about-origin-sig">AI Samurai, Yusuke Kishimoto</span>',
+            'about-lead': 'Le Sapporo Sugoi AI Film Festival est un festival communautaire où chacun peut s’initier au cinéma IA et présenter ses œuvres.',
+            'about-p1': 'Grâce aux progrès de l’IA générative, réaliser un film n’a jamais été aussi accessible. Avec une simple idée — sans compétences professionnelles ni matériel coûteux — vous pouvez créer votre propre film.',
+            'about-p2': 'Ce festival est un lieu où les créateurs de films IA se rassemblent, présentent leurs œuvres et tissent des liens.',
+            'feature-1': 'Guides et tutoriels de création de films IA à venir',
+            'feature-2': 'Les premières participations sont plus que bienvenues',
+            'feature-3': 'Projection sur place + diffusion sur YouTube',
+            // Sponsors
+            'sec-sponsors': 'Sponsors',
+            'sponsors-desc': 'Les entreprises, organisations et services sponsors qui soutiennent ce festival.<br>Nous les remercions chaleureusement pour leur soutien.',
+            'sponsor-nttdmse': 'NTT DATA MSE Corporation',
+            'sponsor-hp': 'HP Japan Inc.',
+            'sponsor-eques': 'EQUES Inc.',
+            'sponsor-dtc': 'DTC Inc.',
+            'sponsor-localhosthq': 'LocalHostHQ',
+            'sponsor-hanamii': 'hanamii',
+            'sponsor-sapporo': 'Avec le soutien de : Ville de Sapporo',
+            // Divisions
+            'sec-divisions': 'Catégories',
+            'divisions-desc': 'Nous accueillons votre film IA dans deux catégories. Une sélection spéciale sur invitation, composée par les organisateurs, sera également projetée sur place.',
+            'div1-badge': 'Catégorie principale',
+            'div1-title': 'Catégorie Projection',
+            'div1-sub': '上映作品部門',
+            'div1-duration': 'Durée : <strong>3–15 min</strong> / Format d’image : <strong>16:9</strong>',
+            'div1-desc': 'Fiction, art, clips musicaux… tous les genres sont les bienvenus (le contenu doit convenir à tous les publics). Tout film créé principalement par génération IA est admissible ; le combiner avec quelques prises de vues réelles est également possible. Toutes les langues sont acceptées — même inventées (les œuvres qui ne sont pas en japonais, ou dont le japonais n’est pas naturel, doivent comporter des sous-titres japonais).',
+            'div1-highlight': 'Les créateurs qui peuvent venir à Sapporo le jour J verront <strong>tous leurs films projetés</strong> (un film par personne).',
+            'div1-h4': 'À propos des créneaux de projection',
+            'div1-li1': '<strong>Créneau créateurs sur place</strong> | Chaque film d’un créateur pouvant venir à Sapporo le jour J sera projeté. Venez sur place et découvrez votre œuvre sur grand écran. Un film par personne.',
+            'div1-li2': '<strong>Créneau candidatures générales (en ligne possible)</strong> | Jusqu’à 10 films seront sélectionnés parmi les candidatures en ligne. En cas de nombreuses candidatures, la sélection se fera selon l’aboutissement de l’œuvre et l’originalité de ses idées.',
+            'div1-broadcast': 'Tous les films projetés sur place<br>+ diffusés sur YouTube',
+            'div2-title': 'Catégorie Expérimentale',
+            'div2-sub': '実験部門',
+            'div2-duration': 'Durée : <strong>1–5 min</strong> / Format d’image : <strong>16:9</strong>',
+            'div2-desc': '« Comment fait-on seulement des vidéos avec l’IA ? » « J’ai juste essayé un outil et fait quelque chose… » — ce niveau d’enthousiasme suffit amplement. Dans cette catégorie, l’essentiel est avant tout de montrer votre travail.',
+            'div2-highlight': 'Nous privilégions <strong>l’audace</strong> à la qualité. Votre tout premier film est plus que bienvenu. Les filigranes peuvent rester tels quels.',
+            'div2-h4a': 'Les œuvres que nous accueillons',
+            'div2-li1': 'Un premier essai réalisé juste après avoir pris en main un outil IA',
+            'div2-li2': 'Des œuvres « pas terminées, mais qui tentent quelque chose d’intéressant »',
+            'div2-li3': 'Des expérimentations qui poussent un outil dans ses retranchements',
+            'div2-li4': 'Des explorations sérieuses de nouvelles formes d’expression visuelle',
+            'div2-h4b': 'Format de projection',
+            'div2-broadcast': 'Films sélectionnés par le jury projetés sur place<br>+ diffusés sur YouTube',
+            'div3-title': 'Projection spéciale sur invitation',
+            'div3-sub': '特別招待上映枠',
+            'div3-duration': 'Durée : <strong>1–15 min (env.)</strong> / Format d’image : <strong>16:9 recommandé</strong> (autres formats possibles à la discrétion des organisateurs)',
+            'div3-desc': 'Une sélection uniquement sur invitation : l’équipe organisatrice explore les plateformes et réseaux sociaux au Japon et à l’étranger, et invite directement les œuvres et créateurs remarquables qui, selon nous, méritent le grand écran.',
+            'div3-highlight': 'Tous les films invités seront projetés sur le grand écran de la salle.',
+            'div3-h4': 'À propos de cette sélection',
+            'div3-li1': 'Le 16:9 est le format d’image standard, mais d’autres formats peuvent être acceptés à la discrétion des organisateurs selon la nature de l’œuvre.',
+            'div3-li2': 'En principe, toutes les œuvres invitées seront projetées sur place. La diffusion sur YouTube sera confirmée individuellement avec chaque créateur.',
+            // Apply
+            'sec-apply': 'Comment participer',
+            'apply-cond-title': 'Conditions de participation',
+            'cond-li1': 'Publiez « Je participe ! » dans le salon du festival de <a href="https://discord.gg/Ve2tQeN7cw" target="_blank" rel="noopener noreferrer" class="guideline-link">notre Discord (Sapporo Sugoi AI-kai)</a>',
+            'cond-li2': 'L’œuvre doit être une vidéo créée avec des outils de génération IA (prises de vues réelles partielles ou mixtes acceptées)',
+            'cond-li3': '<strong>Doit convenir à tous les publics</strong> (pas de contenu sexuel, pas de violence excessive, de cruauté, de gore ni d’horreur intense — rien d’inapproprié pour les enfants)',
+            'cond-li4': 'Créée au format <strong>16:9</strong> (1080p ou plus recommandé)',
+            'cond-li5': 'L’œuvre doit être votre propre création',
+            'cond-li6': 'Ne doit enfreindre ni droits d’auteur, ni droit à l’image, ni aucun autre droit',
+            'cond-li7': 'Toutes les langues sont acceptées (y compris les langues fictives ou construites)',
+            'cond-li8': 'Les œuvres qui ne sont pas en japonais, ou dont le japonais n’est pas naturel, doivent comporter des sous-titres japonais',
+            'cond-li9': 'Pour la catégorie Projection, retirez les filigranes dans la mesure du possible, sauf s’ils ont une signification particulière, servent la mise en scène ou relèvent d’une question d’âme<br>(aucun retrait nécessaire pour la catégorie Expérimentale)',
+            'cond-li10': 'Respecter les <a href="guideline.html" target="_blank" rel="noopener noreferrer" class="guideline-link">Consignes de production SAIFF Hiver 2026</a>',
+            'apply-form-title': 'Éléments à fournir',
+            'apply-form-sub': 'Veuillez fournir les informations suivantes',
+            'form-li1': 'Adresse e-mail',
+            'form-li2': 'Titre du film',
+            'form-li3': 'Catégorie (Projection / Expérimentale)',
+            'form-li4': 'Durée',
+            'form-li5': 'URL de partage du fichier vidéo (mp4 stocké sur Google Drive)',
+            'form-li6': 'Synopsis (100 caractères ou plus)',
+            'form-li7': 'Outils IA utilisés et manière dont vous les avez utilisés',
+            'form-li8': 'Nom du créateur (pseudonyme accepté)',
+            'form-li9': 'Profil du créateur (une version courte suffit)',
+            'form-li10': 'Compte sur les réseaux sociaux ou site personnel (facultatif)',
+            'form-li11': 'Acceptation des conditions et des consignes',
+            'form-li12': 'Rejoindre le Discord et publier « Je participe ! »',
+            'btn-form': 'Accéder au formulaire de candidature',
+            // Awards
+            'sec-awards': 'Prix',
+            'awards-desc': 'Décernés par le jury parmi tous les films projetés',
+            'award1-title': 'Prix du meilleur film',
+            'award1-div': 'Catégorie Projection',
+            'award1-desc': 'Décerné au meilleur film parmi les candidatures de la catégorie Projection.',
+            'award2-title': 'Prix de la meilleure expérimentation',
+            'award2-div': 'Catégorie Expérimentale',
+            'award2-desc': 'Décerné à la meilleure œuvre parmi les candidatures de la catégorie Expérimentale.',
+            'award3-title': 'Prix spécial du jury',
+            'award3-div': 'Tous les films',
+            'award3-desc': 'Chaque membre du jury choisit, parmi tous les films, celui qui a le plus touché sa propre sensibilité esthétique.',
+            // Judges
+            'sec-judges': 'Jury',
+            'judges-desc': 'Aux côtés de l’organisateur AI Samurai, quatre créateurs et ingénieurs regarderont vos films en tant que membres du jury.',
+            'judge1-name': 'Rina Onodera',
+            'judge1-title': 'Créatrice XR',
+            'judge1-comment': 'Ce n’est pas un concours business — c’est une fête. Un lieu où vous pouvez exprimer le cri de votre âme à pleine puissance, depuis votre propre point de vue. J’ai hâte de voir quelles possibilités l’IA apporte à cette expression. Faisons-en la meilleure des fêtes, où les âmes se parlent !',
+            'judge2-name': 'Milia',
+            'judge2-title': 'Auteure-compositrice-interprète entre monde réel et monde virtuel',
+            'judge2-comment': 'Merci de m’avoir invitée à faire partie du jury !<br>J’ai réalisé des clips et des comédies musicales dans des espaces virtuels, et j’avais envie d’essayer de créer des vidéos avec l’IA — c’est donc l’occasion parfaite.<br>J’ai vraiment hâte de découvrir les œuvres que je vais rencontrer.',
+            'judge3-title': 'Président du comité exécutif de VketReal in Sapporo',
+            'judge3-comment': 'Écriture de scénario, mise en scène, montage… il y a tant de façons d’utiliser l’IA. J’attends avec impatience l’ingéniosité technique — et l’histoire que chaque œuvre racontera avec !',
+            'judge4-name': 'Ryoma Kudo (Bonjiko)',
+            'judge4-title': 'Vice-président de Sugoi AI-kai',
+            'judge4-comment': 'Des idées étonnantes aux histoires qui touchent le cœur — j’ai hâte de rencontrer des œuvres de toutes sortes ! Amusons-nous ensemble avec cette nouvelle forme d’expression qu’est l’IA !',
+            // CTA
+            'cta-title': 'Votre film IA,<br>sur grand écran',
+            'cta-desc': 'Tout le monde est le bienvenu, des débutants aux créateurs expérimentés.<br>Relevez le défi à Sapporo.',
+            'btn-check-apply': 'Comment participer',
+            'btn-discord': 'Poser une question et publier sur Discord',
+            // Organizer
+            'sec-organizer': 'Organisateur',
+            'organizer-names': 'Organisateur : Yusuke Kishimoto<br>— AI Samurai —<br>Responsable de Sapporo Sugoi AI-kai',
+            'organizer-bio': 'Une communauté basée à Sapporo qui cultive une culture d’apprentissage, d’expérimentation et de plaisir autour de l’IA. À travers des événements réguliers et des ateliers, nous aidons davantage de personnes à maîtriser l’IA.',
+            'social-discord': '💬 Discord : Sapporo Sugoi AI-kai',
+            'btn-mail': '✉️ Contact par e-mail',
+            // Footer
+            'footer-title': 'Sapporo Sugoi AI Film Festival Hiver 2026',
+            'footer-link-overview': 'Présentation',
+            'footer-link-divisions': 'Catégories',
+            'footer-link-apply': 'Comment participer',
+            'footer-org': 'Organisateur : Sapporo Sugoi AI-kai',
+            'footer-venue': 'Lieu mis à disposition par : Deep Tech CORE SAPPORO',
+            'footer-matsuri': 'Ce festival de films est organisé dans le cadre du Sapporo Sugoi AI Matsuri Hiver 2026',
+            'footer-disclaimer': '* Cet événement est organisé par des bénévoles à titre individuel et ne représente aucune entreprise ni organisation commerciale.'
+        },
+        de: {
+            // Hero
+            'hero-badge': 'Einreichungen geöffnet',
+            'title-main': 'Sapporo Sugoi AI Film Festival Winter 2026',
+            'title-sub': '札幌すごいAI映画祭 2026冬',
+            'hero-tagline': 'Versuch dich am Filmemachen mit KI.<br>Das Werk jedes Creators auf der Leinwand in Sapporo.',
+            'badge-onsite': 'Vorführung auf großer Leinwand',
+            'badge-youtube': 'YouTube-Livestream',
+            'badge-beginner': 'Anfänger willkommen',
+            'btn-submit': 'Film einreichen',
+            'btn-learn-article': 'Lernen mit Artikeln',
+            'btn-learn-video': 'Lernen mit Videos',
+            // Overview
+            'sec-overview': 'Überblick',
+            'overview-subtitle': 'Ein KI-Filmfestival, in Sapporo.',
+            'overview-p1': 'Ein Community-Filmfestival, bei dem jede und jeder das Filmemachen mit generativer KI erleben kann. Alle sind willkommen, von Anfängern bis zu erfahrenen Creators.',
+            'overview-p2': 'Dein KI-Film wird auf der rund 200 Zoll großen, wandfüllenden Leinwand im <strong>Deep Tech CORE SAPPORO</strong> gezeigt und erreicht das Publikum vor Ort sowie per gleichzeitigem YouTube-Livestream.',
+            'info-label-date': 'Datum',
+            'info-value-date': 'Samstag, 5. Dezember 2026, 10:00–13:00',
+            'info-label-venue': 'Veranstaltungsort',
+            'info-label-format': 'Format',
+            'info-value-format': 'Vorführung vor Ort + YouTube-Livestream',
+            'info-label-fee': 'Gebühr',
+            'info-value-fee': 'Kostenlos (Einreichung, Teilnahme und Zuschauen)',
+            'info-label-reserve': 'Voranmeldung',
+            'info-value-reserve': 'Nicht erforderlich (einfach vorbeikommen)',
+            'info-label-deadline': 'Einsendeschluss',
+            'info-value-deadline': 'Sonntag, 16. August 2026, 23:59 (JST)',
+            'overview-note': '* Die Einreichung kann ohne Vorankündigung vorzeitig geschlossen werden.',
+            // About
+            'sec-about': 'Über das Festival',
+            'about-origin': 'Ich, der Veranstalter, habe selbst einmal an einem KI-Filmwettbewerb teilgenommen. Gewonnen habe ich nicht – aber ich habe hautnah gespürt, wie die Begeisterung für das Filmemachen mit KI wächst.<br>Daraus möchte ich etwas machen, das jede und jeder angehen kann, hier in Sapporo.<br><span class="about-origin-sig">AI Samurai, Yusuke Kishimoto</span>',
+            'about-lead': 'Das Sapporo Sugoi AI Film Festival ist ein Community-Festival, bei dem alle das Filmemachen mit KI erleben und ihre Werke zeigen können.',
+            'about-p1': 'Dank der Fortschritte generativer KI war die Hürde zum Filmemachen noch nie so niedrig. Mit nur einer Idee – ohne professionelle Fähigkeiten, ohne teure Ausrüstung – kannst du deinen eigenen Film erschaffen.',
+            'about-p2': 'Dieses Festival ist ein Ort, an dem KI-Filmschaffende zusammenkommen, ihre Werke präsentieren und sich vernetzen.',
+            'feature-1': 'Anleitungen und Tutorials zum KI-Filmemachen folgen in Kürze',
+            'feature-2': 'Erstteilnehmer sind mehr als willkommen',
+            'feature-3': 'Vorführung vor Ort + YouTube-Livestream',
+            // Sponsors
+            'sec-sponsors': 'Sponsoren',
+            'sponsors-desc': 'Die Sponsoren, Organisationen und Dienste, die dieses Festival unterstützen.<br>Wir danken herzlich für die freundliche Unterstützung.',
+            'sponsor-nttdmse': 'NTT DATA MSE Corporation',
+            'sponsor-hp': 'HP Japan Inc.',
+            'sponsor-eques': 'EQUES Inc.',
+            'sponsor-dtc': 'DTC Inc.',
+            'sponsor-localhosthq': 'LocalHostHQ',
+            'sponsor-hanamii': 'hanamii',
+            'sponsor-sapporo': 'Unterstützt von: Stadt Sapporo',
+            // Divisions
+            'sec-divisions': 'Kategorien',
+            'divisions-desc': 'Wir freuen uns auf deinen KI-Film in zwei Kategorien. Zusätzlich wird vor Ort ein von den Veranstaltern kuratiertes Sonderprogramm auf Einladung gezeigt.',
+            'div1-badge': 'Hauptkategorie',
+            'div1-title': 'Kategorie Vorführung',
+            'div1-sub': '上映作品部門',
+            'div1-duration': 'Laufzeit: <strong>3–15 Min.</strong> / Seitenverhältnis: <strong>16:9</strong>',
+            'div1-desc': 'Story, Kunst, Musikvideos … jedes Genre ist willkommen (der Inhalt muss für alle Altersgruppen geeignet sein). Zugelassen ist jeder Film, der hauptsächlich mit KI-Generierung entstanden ist; die Kombination mit einigen Realaufnahmen ist ebenfalls in Ordnung. Jede Sprache ist erlaubt – auch erfundene (Werke, die nicht auf Japanisch sind oder unnatürliches Japanisch enthalten, benötigen japanische Untertitel).',
+            'div1-highlight': 'Creators, die am Veranstaltungstag nach Sapporo kommen können, bekommen <strong>alle ihren Film gezeigt</strong> (ein Film pro Person).',
+            'div1-h4': 'Zu den Vorführplätzen',
+            'div1-li1': '<strong>Platz für Creators vor Ort</strong> | Jeder Film eines Creators, der am Veranstaltungstag nach Sapporo kommen kann, wird gezeigt. Komm vorbei und sieh dein Werk auf der großen Leinwand. Ein Film pro Person.',
+            'div1-li2': '<strong>Platz für allgemeine Einreichungen (online möglich)</strong> | Aus den Online-Einreichungen werden bis zu 10 Filme ausgewählt. Bei vielen Einreichungen erfolgt die Auswahl nach dem Reifegrad des Werks und der Originalität der Idee.',
+            'div1-broadcast': 'Alle Filme werden vor Ort gezeigt<br>+ auf YouTube gestreamt',
+            'div2-title': 'Kategorie Experimental',
+            'div2-sub': '実験部門',
+            'div2-duration': 'Laufzeit: <strong>1–5 Min.</strong> / Seitenverhältnis: <strong>16:9</strong>',
+            'div2-desc': '„Wie macht man überhaupt Videos mit KI?“ „Ich habe nur ein Tool ausprobiert und etwas gebastelt …“ – so viel Begeisterung reicht völlig aus. In dieser Kategorie geht es vor allem darum, dein Werk erst einmal zu zeigen.',
+            'div2-highlight': 'Uns ist der <strong>Mut zum Ausprobieren</strong> wichtiger als Qualität. Dein allererster Film ist mehr als willkommen. Wasserzeichen dürfen bleiben, wie sie sind.',
+            'div2-h4a': 'Werke, die wir uns wünschen',
+            'div2-li1': 'Ein erster Versuch, direkt nachdem du ein KI-Tool in die Hand genommen hast',
+            'div2-li2': 'Werke, die „nicht fertig sind, aber etwas Interessantes ausprobieren“',
+            'div2-li3': 'Experimente, die ein Tool an seine Grenzen bringen',
+            'div2-li4': 'Ernsthafte Erkundungen neuer visueller Ausdrucksformen',
+            'div2-h4b': 'Vorführformat',
+            'div2-broadcast': 'Von der Jury ausgewählte Filme werden vor Ort gezeigt<br>+ auf YouTube gestreamt',
+            'div3-title': 'Sondervorführung auf Einladung',
+            'div3-sub': '特別招待上映枠',
+            'div3-duration': 'Laufzeit: <strong>1–15 Min. (ca.)</strong> / Seitenverhältnis: <strong>16:9 empfohlen</strong> (andere Formate nach Ermessen der Veranstalter möglich)',
+            'div3-desc': 'Ein Programm nur auf Einladung: Das Organisationsteam recherchiert auf Plattformen und in sozialen Medien im In- und Ausland und lädt herausragende Werke und Creators, die unserer Meinung nach auf die große Leinwand gehören, direkt ein.',
+            'div3-highlight': 'Alle eingeladenen Filme werden auf der großen Leinwand vor Ort gezeigt.',
+            'div3-h4': 'Zu diesem Programm',
+            'div3-li1': '16:9 ist das Standard-Seitenverhältnis, je nach Art des Werks können nach Ermessen der Veranstalter aber auch andere Formate zugelassen werden.',
+            'div3-li2': 'Grundsätzlich werden alle eingeladenen Werke vor Ort gezeigt. Der YouTube-Stream wird mit jedem Creator einzeln abgestimmt.',
+            // Apply
+            'sec-apply': 'So nimmst du teil',
+            'apply-cond-title': 'Teilnahmebedingungen',
+            'cond-li1': 'Poste „Ich mache mit!“ im Filmfestival-Kanal auf <a href="https://discord.gg/Ve2tQeN7cw" target="_blank" rel="noopener noreferrer" class="guideline-link">unserem Discord (Sapporo Sugoi AI-kai)</a>',
+            'cond-li2': 'Das Werk muss ein mit KI-Generierungstools erstelltes Video sein (teilweise Realaufnahmen oder Mischformen sind in Ordnung)',
+            'cond-li3': '<strong>Muss für alle Altersgruppen geeignet sein</strong> (keine sexuellen Inhalte, keine übermäßige Gewalt, Grausamkeit, Gore oder intensiver Horror – nichts, was für Kinder ungeeignet ist)',
+            'cond-li4': 'Im Seitenverhältnis <strong>16:9</strong> erstellt (1080p oder höher empfohlen)',
+            'cond-li5': 'Das Werk muss deine eigene Schöpfung sein',
+            'cond-li6': 'Darf keine Urheberrechte, Rechte am eigenen Bild oder sonstige Rechte verletzen',
+            'cond-li7': 'Jede Sprache ist erlaubt (auch fiktive oder konstruierte Sprachen)',
+            'cond-li8': 'Werke, die nicht auf Japanisch sind oder unnatürliches Japanisch enthalten, müssen japanische Untertitel haben',
+            'cond-li9': 'In der Kategorie Vorführung sind Wasserzeichen nach Möglichkeit zu entfernen, es sei denn, sie haben eine besondere Bedeutung, dienen der Inszenierung oder sind eine Frage der Seele<br>(in der Kategorie Experimental ist kein Entfernen nötig)',
+            'cond-li10': 'Einhaltung der <a href="guideline.html" target="_blank" rel="noopener noreferrer" class="guideline-link">Produktionsrichtlinien SAIFF Winter 2026</a>',
+            'apply-form-title': 'Einzureichende Angaben',
+            'apply-form-sub': 'Bitte reiche folgende Informationen ein',
+            'form-li1': 'E-Mail-Adresse',
+            'form-li2': 'Filmtitel',
+            'form-li3': 'Kategorie (Vorführung / Experimental)',
+            'form-li4': 'Laufzeit',
+            'form-li5': 'Freigabe-URL der Videodatei (mp4 auf Google Drive)',
+            'form-li6': 'Synopsis (mindestens 100 Zeichen)',
+            'form-li7': 'Verwendete KI-Tools und wie du sie eingesetzt hast',
+            'form-li8': 'Name des Creators (Pseudonym möglich)',
+            'form-li9': 'Profil des Creators (kurz genügt)',
+            'form-li10': 'Social-Media-Account oder persönliche Website (optional)',
+            'form-li11': 'Zustimmung zu den Bedingungen und Richtlinien',
+            'form-li12': 'Dem Discord beitreten und „Ich mache mit!“ posten',
+            'btn-form': 'Zum Anmeldeformular',
+            // Awards
+            'sec-awards': 'Auszeichnungen',
+            'awards-desc': 'Von der Jury aus allen gezeigten Filmen ausgewählt',
+            'award1-title': 'Preis für den besten Film',
+            'award1-div': 'Kategorie Vorführung',
+            'award1-desc': 'Wird an den besten Film unter den Einreichungen der Kategorie Vorführung verliehen.',
+            'award2-title': 'Preis für das beste Experiment',
+            'award2-div': 'Kategorie Experimental',
+            'award2-desc': 'Wird an das beste Werk unter den Einreichungen der Kategorie Experimental verliehen.',
+            'award3-title': 'Sonderpreis der Jury',
+            'award3-div': 'Alle Filme',
+            'award3-desc': 'Jedes Jurymitglied wählt aus allen Filmen denjenigen aus, der sein eigenes ästhetisches Empfinden am stärksten getroffen hat.',
+            // Judges
+            'sec-judges': 'Jury',
+            'judges-desc': 'Neben Veranstalter AI Samurai sehen sich vier Creators und Engineers eure Filme als Jury an.',
+            'judge1-name': 'Rina Onodera',
+            'judge1-title': 'XR-Creatorin',
+            'judge1-comment': 'Das ist kein Business-Wettbewerb – das ist ein Fest. Ein Ort, an dem du den Schrei deiner Seele mit voller Kraft und aus deiner eigenen Perspektive ausdrücken kannst. Ich kann es kaum erwarten zu sehen, welche Möglichkeiten KI diesem Ausdruck eröffnet. Machen wir daraus das beste Fest, bei dem Seelen miteinander sprechen!',
+            'judge2-name': 'Milia',
+            'judge2-title': 'Singer-Songwriterin zwischen realer und virtueller Welt',
+            'judge2-comment': 'Danke für die Einladung in die Jury!<br>Ich habe Musikvideos und Musicals in virtuellen Räumen gemacht und wollte schon lange ausprobieren, Videos mit KI zu erstellen – das ist also die perfekte Gelegenheit.<br>Ich freue mich sehr auf die Werke, die mir begegnen werden.',
+            'judge3-title': 'Vorsitzender des Organisationskomitees von VketReal in Sapporo',
+            'judge3-comment': 'Drehbuch, Regie, Schnitt … es gibt so viele Möglichkeiten, KI einzusetzen. Ich freue mich auf den technischen Einfallsreichtum – und auf die Geschichte, die jedes Werk damit erzählt!',
+            'judge4-name': 'Ryoma Kudo (Bonjiko)',
+            'judge4-title': 'Stellvertretender Leiter von Sugoi AI-kai',
+            'judge4-comment': 'Von verblüffenden Ideen bis zu Geschichten, die das Herz berühren – ich freue mich auf Werke aller Art! Lasst uns gemeinsam Spaß haben mit dieser neuen Ausdrucksform namens KI!',
+            // CTA
+            'cta-title': 'Dein KI-Film,<br>auf der großen Leinwand',
+            'cta-desc': 'Alle sind willkommen, von Anfängern bis zu erfahrenen Creators.<br>Stell dich der Herausforderung in Sapporo.',
+            'btn-check-apply': 'So nimmst du teil',
+            'btn-discord': 'Auf Discord fragen und posten',
+            // Organizer
+            'sec-organizer': 'Veranstalter',
+            'organizer-names': 'Veranstalter: Yusuke Kishimoto<br>— AI Samurai —<br>Leiter von Sapporo Sugoi AI-kai',
+            'organizer-bio': 'Eine Community mit Sitz in Sapporo, die eine Kultur des Lernens, Ausprobierens und Genießens von KI pflegt. Mit regelmäßigen Events und Lernrunden helfen wir mehr Menschen, KI zu meistern.',
+            'social-discord': '💬 Discord: Sapporo Sugoi AI-kai',
+            'btn-mail': '✉️ Kontakt per E-Mail',
+            // Footer
+            'footer-title': 'Sapporo Sugoi AI Film Festival Winter 2026',
+            'footer-link-overview': 'Überblick',
+            'footer-link-divisions': 'Kategorien',
+            'footer-link-apply': 'Teilnahme',
+            'footer-org': 'Veranstalter: Sapporo Sugoi AI-kai',
+            'footer-venue': 'Veranstaltungsort bereitgestellt von: Deep Tech CORE SAPPORO',
+            'footer-matsuri': 'Dieses Filmfestival findet im Rahmen des Sapporo Sugoi AI Matsuri Winter 2026 statt',
+            'footer-disclaimer': '* Diese Veranstaltung wird von ehrenamtlichen Einzelpersonen durchgeführt und vertritt kein Unternehmen und keine kommerzielle Organisation.'
         }
     };
+
+    const LANG_CODE = { ja: 'JP', en: 'EN', zh: 'CN', fr: 'FR', de: 'DE' };
 
     document.addEventListener('DOMContentLoaded', function () {
         const elements = document.querySelectorAll('[data-i18n]');
@@ -341,7 +657,12 @@
             document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : lang);
             document.title = PAGE_TITLES[lang] || PAGE_TITLES.ja;
             buttons.forEach(function (btn) {
-                btn.classList.toggle('is-active', btn.getAttribute('data-lang') === lang);
+                const on = btn.getAttribute('data-lang') === lang;
+                btn.classList.toggle('is-active', on);
+                btn.setAttribute('aria-checked', on ? 'true' : 'false');
+            });
+            document.querySelectorAll('.lang-current').forEach(function (el) {
+                el.textContent = LANG_CODE[lang] || 'JP';
             });
             try { localStorage.setItem('saiff-lang', lang); } catch (e) { /* private mode */ }
         }
@@ -356,7 +677,53 @@
         const paramLang = new URLSearchParams(location.search).get('lang');
         let saved = null;
         try { saved = localStorage.getItem('saiff-lang'); } catch (e) { /* private mode */ }
-        const initial = (paramLang === 'ja' || paramLang === 'en' || paramLang === 'zh') ? paramLang : saved;
-        if (initial === 'en' || initial === 'zh') setLang(initial);
+        const initial = (paramLang === 'ja' || (paramLang && I18N[paramLang])) ? paramLang : saved;
+        if (initial && initial !== 'ja' && I18N[initial]) setLang(initial);
     });
+})();
+
+// ─── Language dropdown: open / close behaviour ───
+(function () {
+    'use strict';
+    function init() {
+        const switcher = document.getElementById('langSwitcher');
+        if (!switcher) return;
+        const toggle = switcher.querySelector('.lang-toggle');
+        const menu = switcher.querySelector('.lang-menu');
+        if (!toggle || !menu) return;
+
+        function open() {
+            switcher.classList.add('is-open');
+            toggle.setAttribute('aria-expanded', 'true');
+        }
+        function close() {
+            switcher.classList.remove('is-open');
+            toggle.setAttribute('aria-expanded', 'false');
+        }
+
+        toggle.addEventListener('click', function (e) {
+            e.stopPropagation();
+            if (switcher.classList.contains('is-open')) { close(); } else { open(); }
+        });
+        menu.querySelectorAll('.lang-btn').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                close();
+                toggle.focus();
+            });
+        });
+        document.addEventListener('click', function (e) {
+            if (!switcher.contains(e.target)) close();
+        });
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && switcher.classList.contains('is-open')) {
+                close();
+                toggle.focus();
+            }
+        });
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
 })();

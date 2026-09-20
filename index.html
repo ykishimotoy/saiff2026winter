@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>札幌すごいAI映画祭 2026夏 | 作品募集中</title>
+    <title>札幌すごいAI映画祭 2026冬 | 作品募集中</title>
     <meta name="description" content="生成AIによる映像作品を募集します。AIを使った映画表現を、札幌のスクリーンで上映するコミュニティ型映画祭。2026年8月開催。">
     <!-- OGP Tags -->
-    <meta property="og:title" content="札幌すごいAI映画祭 2026夏 | 作品募集中">
+    <meta property="og:title" content="札幌すごいAI映画祭 2026冬 | 作品募集中">
     <meta property="og:description" content="生成AIによる映像作品を募集します。AIを使った映画表現を、札幌のスクリーンで上映するコミュニティ型映画祭。2026年8月開催。">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://film-2026-summer.sugoiai.org/">
-    <meta property="og:site_name" content="札幌すごいAI映画祭 2026夏">
-    <meta property="og:image" content="https://film-2026-summer.sugoiai.org/images/dtceigasmall.jpg">
+    <meta property="og:url" content="https://film-2026-winter.sugoiai.org/">
+    <meta property="og:site_name" content="札幌すごいAI映画祭 2026冬">
+    <meta property="og:image" content="https://film-2026-winter.sugoiai.org/images/dtceigasmall.jpg">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="400">
     <meta property="og:locale" content="ja_JP">
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="札幌すごいAI映画祭 2026夏 | 作品募集中">
+    <meta name="twitter:title" content="札幌すごいAI映画祭 2026冬 | 作品募集中">
     <meta name="twitter:description" content="生成AIによる映像作品を募集します。AIを使った映画表現を、札幌のスクリーンで上映するコミュニティ型映画祭。2026年8月開催。">
-    <meta name="twitter:image" content="https://film-2026-summer.sugoiai.org/images/dtceigasmall.jpg">
+    <meta name="twitter:image" content="https://film-2026-winter.sugoiai.org/images/dtceigasmall.jpg">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="apple-touch-icon" href="images/logo.png">
@@ -32,10 +32,20 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
-        <div class="lang-switcher" role="group" aria-label="Language">
-            <button type="button" class="lang-btn is-active" data-lang="ja">JP</button>
-            <button type="button" class="lang-btn" data-lang="en">EN</button>
-            <button type="button" class="lang-btn" data-lang="zh">CH</button>
+        <!-- 言語切替（heroに対して絶対配置：Languageボタン → プルダウン） -->
+        <div class="lang-switcher" id="langSwitcher">
+            <button type="button" class="lang-toggle" id="langToggle" aria-haspopup="true" aria-expanded="false" aria-controls="langMenu" aria-label="Language">
+                <svg class="lang-toggle-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <span class="lang-toggle-label">Language</span>
+                <svg class="lang-toggle-chevron" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <ul class="lang-menu" id="langMenu" role="menu" aria-label="Language">
+                <li role="none"><button type="button" class="lang-btn is-active" data-lang="ja" role="menuitemradio" aria-checked="true">日本語</button></li>
+                <li role="none"><button type="button" class="lang-btn" data-lang="en" role="menuitemradio" aria-checked="false">English</button></li>
+                <li role="none"><button type="button" class="lang-btn" data-lang="zh" role="menuitemradio" aria-checked="false">中文</button></li>
+                <li role="none"><button type="button" class="lang-btn" data-lang="fr" role="menuitemradio" aria-checked="false">Français</button></li>
+                <li role="none"><button type="button" class="lang-btn" data-lang="de" role="menuitemradio" aria-checked="false">Deutsch</button></li>
+            </ul>
         </div>
         <div class="hero-background">
             <div class="film-particle"></div>
@@ -46,11 +56,11 @@
             <!-- [PLACEHOLDER] メインビジュアル画像（推奨: 1920×1080px、映画祭ロゴ入りキービジュアル） -->
         </div>
         <div class="container hero-content">
-            <div class="hero-date">2026.8.29</div>
+            <div class="hero-date">2026.12.5</div>
             <div class="hero-badge" data-i18n="hero-badge">作品募集中</div>
             <h1 class="hero-title">
-                <span class="title-main" data-i18n="title-main">札幌すごいAI映画祭 2026夏</span>
-                <span class="title-sub" data-i18n="title-sub">Sapporo Sugoi AI Film Festival 2026 Summer</span>
+                <span class="title-main" data-i18n="title-main">札幌すごいAI映画祭 2026冬</span>
+                <span class="title-sub" data-i18n="title-sub">Sapporo Sugoi AI Film Festival 2026 Winter</span>
             </h1>
             <p class="hero-tagline" data-i18n="hero-tagline">AIで映画作りに挑戦。<br>クリエイター全員、札幌で上映。</p>
             <div class="hero-watch">
@@ -89,6 +99,7 @@
     </section>
 
     <!-- Prize / Awards Gallery Section -->
+    <!-- 2026冬では非表示（受賞者情報）
     <section id="prize" class="section prize">
         <div class="container">
             <div class="section-header">
@@ -142,6 +153,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <!-- Overview Section -->
     <section id="overview" class="section overview">
@@ -165,7 +177,7 @@
                         <div class="event-info">
                             <div class="info-item">
                                 <div class="info-label" data-i18n="info-label-date">開催予定</div>
-                                <div class="info-value" data-i18n="info-value-date">2026年8月29日(土) 10:00〜13:00</div>
+                                <div class="info-value" data-i18n="info-value-date">2026年12月5日(土) 10:00〜13:00</div>
                             </div>
                             <div class="info-item">
                                 <div class="info-label" data-i18n="info-label-venue">会場</div>
@@ -196,6 +208,7 @@
     </section>
 
     <!-- Screening Works Section -->
+    <!-- 2026冬では非表示（上映作品セクション）
     <section id="screening" class="section screening">
         <div class="container">
             <div class="section-header">
@@ -340,6 +353,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <!-- About Section -->
     <section id="about" class="section about-festival">
@@ -400,24 +414,30 @@
                 <p class="section-description" data-i18n="sponsors-desc">映画祭を支えてくださるスポンサー企業・団体・サービスの皆さまです。<br>温かいご支援に心より感謝申し上げます。</p>
             </div>
             <div class="sponsors-grid">
+                <!--
                 <a href="https://www.nttd-mse.com/" target="_blank" rel="noopener noreferrer" class="sponsor-card">
                     <div class="sponsor-logo">
                         <img src="images/NTTDMSE_logo.png" alt="株式会社NTTデータMSE">
                     </div>
                     <div class="sponsor-name" data-i18n="sponsor-nttdmse">株式会社NTTデータMSE</div>
                 </a>
+                -->
+                <!--
                 <a href="https://www.hp.com/jp-ja/home.html" target="_blank" rel="noopener noreferrer" class="sponsor-card">
                     <div class="sponsor-logo">
                         <img src="images/HP.png" alt="株式会社日本HP">
                     </div>
                     <div class="sponsor-name" data-i18n="sponsor-hp">株式会社日本HP</div>
                 </a>
+                -->
+                <!--
                 <a href="https://eques.co.jp" target="_blank" rel="noopener noreferrer" class="sponsor-card">
                     <div class="sponsor-logo">
                         <img src="images/eques.png" alt="株式会社EQUES">
                     </div>
                     <div class="sponsor-name" data-i18n="sponsor-eques">株式会社EQUES</div>
                 </a>
+                -->
                 <a href="https://deeptech-core.com" target="_blank" rel="noopener noreferrer" class="sponsor-card">
                     <div class="sponsor-logo">
                         <img src="images/DTC_logo.png" alt="DTC株式会社">
@@ -430,19 +450,23 @@
                     </div>
                     <div class="sponsor-name" data-i18n="sponsor-localhosthq">LocalHostHQ</div>
                 </a>
+                <!--
                 <a href="https://hanamii.jp" target="_blank" rel="noopener noreferrer" class="sponsor-card">
                     <div class="sponsor-logo">
                         <img src="images/hanamii.png" alt="HANAMII株式会社">
                     </div>
                     <div class="sponsor-name" data-i18n="sponsor-hanamii">hanamii</div>
                 </a>
+                -->
+                <!--
                 <a href="https://www.city.sapporo.jp/" target="_blank" rel="noopener noreferrer" class="sponsor-card">
                     <div class="sponsor-logo">
                         <span class="sponsor-logo-text">札幌市</span>
                     </div>
                     <div class="sponsor-name" data-i18n="sponsor-sapporo">後援：札幌市</div>
                 </a>
-                <!-- 2026夏では非表示
+                -->
+                <!-- 2026冬では非表示
                 <a href="https://turkana.akajishiya.com" target="_blank" rel="noopener noreferrer" class="sponsor-card">
                     <div class="sponsor-logo">
                         <img src="images/turkana.png" alt="Turkana">
@@ -586,7 +610,7 @@
                         <li data-i18n="cond-li7">言語は自由（架空・人造言語など、存在しない言語も可）</li>
                         <li data-i18n="cond-li8">日本語以外の作品、または日本語が不自然な作品には日本語字幕を付けること</li>
                         <li data-i18n="cond-li9">上映作品部門の場合、ウォーターマークは特別な意味や演出や魂の問題がある場合を除き可能な限り除去すること<br>（実験部門は除去不要）</li>
-                        <li data-i18n="cond-li10"><a href="guideline.html" target="_blank" rel="noopener noreferrer" class="guideline-link">札幌すごいAI映画祭 2026夏 制作ガイドライン</a>に準拠していること</li>
+                        <li data-i18n="cond-li10"><a href="guideline.html" target="_blank" rel="noopener noreferrer" class="guideline-link">札幌すごいAI映画祭 2026冬 制作ガイドライン</a>に準拠していること</li>
                     </ul>
                 </div>
 
@@ -681,6 +705,7 @@
             <div class="judges-grid">
 
                 <!-- Judge 1 -->
+                <!--
                 <div class="judge-card">
                     <div class="judge-image-wrap">
                         <img src="images/おのでらりな.jpg" alt="おのでらりな" class="judge-image">
@@ -691,8 +716,10 @@
                         <blockquote class="judge-comment" data-i18n="judge1-comment">これはビジネスコンテストではなく"お祭り"。自分視点で、心の叫びを全力で表現できる場所です。AIがその表現にどんな可能性をもたらすのか、今から楽しみでなりません。さあ、魂で語り合う最高のお祭りにしましょう！</blockquote>
                     </div>
                 </div>
+                -->
 
                 <!-- Judge 2 -->
+                <!--
                 <div class="judge-card">
                     <div class="judge-image-wrap">
                         <img src="images/Milia.jpg" alt="Milia(ミリア)" class="judge-image">
@@ -703,8 +730,10 @@
                         <blockquote class="judge-comment" data-i18n="judge2-comment">この度は審査員にお呼びいただきありがとうございます！<br>私自身これまでバーチャル空間でMVを作ったりミュージカルをしたりして来ましたが、ちょうどこれからAIも活用した映像を作ってみたいと思っていたところなので、良い機会になりました。<br>どんな作品に出会えるか、とっても楽しみにしています。</blockquote>
                     </div>
                 </div>
+                -->
 
                 <!-- Judge 3 -->
+                <!--
                 <div class="judge-card">
                     <div class="judge-image-wrap">
                         <img src="images/akun.png" alt="A-kun" class="judge-image">
@@ -715,6 +744,7 @@
                         <blockquote class="judge-comment" data-i18n="judge3-comment">AIが脚本、演出、編集....など、いろいろな活かし方があると思います。技術面での工夫と、それを使って作品として何を訴えるのか、そのストーリー性を楽しみにしています！！</blockquote>
                     </div>
                 </div>
+                -->
 
                 <!-- Judge 4 -->
                 <div class="judge-card">
@@ -798,8 +828,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h3 data-i18n="footer-title">札幌すごいAI映画祭 2026夏</h3>
-                    <p>Sapporo Sugoi AI Film Festival 2026 Summer</p>
+                    <h3 data-i18n="footer-title">札幌すごいAI映画祭 2026冬</h3>
+                    <p>Sapporo Sugoi AI Film Festival 2026 Winter</p>
                 </div>
                 <div class="footer-links">
                     <a href="#overview" data-i18n="footer-link-overview">開催概要</a>
@@ -810,7 +840,7 @@
                 <div class="footer-info">
                     <p data-i18n="footer-org">主催：札幌すごいAI会</p>
                     <p data-i18n="footer-venue">会場協力：Deep Tech CORE SAPPORO</p>
-                    <p data-i18n="footer-matsuri">本映画祭は「札幌すごいAIまつり 2026夏」の一環として開催されます</p>
+                    <p data-i18n="footer-matsuri">本映画祭は「札幌すごいAIまつり 2026冬」の一環として開催されます</p>
                 </div>
             </div>
             <div class="footer-bottom">
