@@ -38,7 +38,7 @@
             'info-label-reserve': 'Advance registration',
             'info-value-reserve': 'Not required (just come to the venue)',
             'info-label-deadline': 'Entry deadline',
-            'info-value-deadline': 'Sunday, August 16, 2026, 23:59 (JST)',
+            'info-value-deadline': 'Sunday, November 15, 2026, 23:59 (JST)',
             'overview-note': '* Entries may close early without notice.',
             // About
             'sec-about': 'About the Festival',
@@ -195,7 +195,7 @@
             'info-label-reserve': '现场观影预约',
             'info-value-reserve': '无需预约（直接到场即可）',
             'info-label-deadline': '报名截止',
-            'info-value-deadline': '2026年8月16日（周日）23:59（日本时间）',
+            'info-value-deadline': '2026年11月15日（周日）23:59（日本时间）',
             'overview-note': '※即使在截止日期前，也可能不经预告提前结束征集。',
             // About
             'sec-about': '关于札幌超赞AI电影节',
@@ -352,7 +352,7 @@
             'info-label-reserve': 'Inscription préalable',
             'info-value-reserve': 'Non requise (venez simplement sur place)',
             'info-label-deadline': 'Date limite de candidature',
-            'info-value-deadline': 'Dimanche 16 août 2026, 23:59 (JST)',
+            'info-value-deadline': 'Dimanche 15 novembre 2026, 23:59 (JST)',
             'overview-note': '* Les candidatures peuvent être clôturées par anticipation sans préavis.',
             // About
             'sec-about': 'À propos du festival',
@@ -509,7 +509,7 @@
             'info-label-reserve': 'Voranmeldung',
             'info-value-reserve': 'Nicht erforderlich (einfach vorbeikommen)',
             'info-label-deadline': 'Einsendeschluss',
-            'info-value-deadline': 'Sonntag, 16. August 2026, 23:59 (JST)',
+            'info-value-deadline': 'Sonntag, 15. November 2026, 23:59 (JST)',
             'overview-note': '* Die Einreichung kann ohne Vorankündigung vorzeitig geschlossen werden.',
             // About
             'sec-about': 'Über das Festival',
