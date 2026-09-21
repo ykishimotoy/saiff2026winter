@@ -59,6 +59,7 @@
             'sponsor-localhosthq': 'LocalHostHQ',
             'sponsor-hanamii': 'hanamii',
             'sponsor-sapporo': 'Supported by: City of Sapporo',
+            'sponsor-aiddsapporo': 'AI-Driven Development Study Group, Sapporo Chapter',
             // Divisions
             'sec-divisions': 'Divisions',
             'divisions-desc': 'We welcome your AI film in two divisions. A special invitation slot, curated by the organizers, will also be screened at the venue.',
@@ -215,6 +216,7 @@
             'sponsor-localhosthq': 'LocalHostHQ',
             'sponsor-hanamii': 'hanamii',
             'sponsor-sapporo': '后援：札幌市',
+            'sponsor-aiddsapporo': 'AI驱动开发学习会 札幌分部',
             // Divisions
             'sec-divisions': '征集单元',
             'divisions-desc': '我们通过两个单元征集你的AI影像作品。此外，还设有由主办方精选作品的特别邀请放映单元。',
@@ -371,6 +373,7 @@
             'sponsor-localhosthq': 'LocalHostHQ',
             'sponsor-hanamii': 'hanamii',
             'sponsor-sapporo': 'Avec le soutien de : Ville de Sapporo',
+            'sponsor-aiddsapporo': 'Groupe d\'étude du développement piloté par l\'IA – section de Sapporo',
             // Divisions
             'sec-divisions': 'Catégories',
             'divisions-desc': 'Nous accueillons votre film IA dans deux catégories. Une sélection spéciale sur invitation, composée par les organisateurs, sera également projetée sur place.',
@@ -527,6 +530,7 @@
             'sponsor-localhosthq': 'LocalHostHQ',
             'sponsor-hanamii': 'hanamii',
             'sponsor-sapporo': 'Unterstützt von: Stadt Sapporo',
+            'sponsor-aiddsapporo': 'Studiengruppe für KI-gestützte Entwicklung – Sektion Sapporo',
             // Divisions
             'sec-divisions': 'Kategorien',
             'divisions-desc': 'Wir freuen uns auf deinen KI-Film in zwei Kategorien. Zusätzlich wird vor Ort ein von den Veranstaltern kuratiertes Sonderprogramm auf Einladung gezeigt.',
