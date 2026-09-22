@@ -135,7 +135,7 @@
             'award3-desc': 'Each judge selects, from all films, the one that struck their own aesthetic sense the most.',
             // Judges
             'sec-judges': 'Judges',
-            'judges-desc': 'Alongside organizer AI Samurai, four creators and engineers will watch your films as judges.',
+            'judges-desc': 'Alongside organizer AI Samurai, creators and engineers will watch your films as judges.',
             'judge1-name': 'Rina Onodera',
             'judge1-title': 'XR Creator',
             'judge1-comment': 'This isn\'t a business contest — it\'s a festival. A place where you can express your soul\'s cry at full power, from your own point of view. I can\'t wait to see what possibilities AI brings to that expression. Let\'s make it the best festival, where souls speak to each other!',
@@ -147,6 +147,9 @@
             'judge4-name': 'Ryoma Kudo (Bonjiko)',
             'judge4-title': 'Vice-chair, Sugoi AI-kai',
             'judge4-comment': 'From astonishing ideas to stories that touch the heart — I\'m looking forward to meeting all kinds of works! Let\'s have fun together in this new form of expression called AI!',
+            'judge5-name': 'Akajishiya',
+            'judge5-title': 'AI video creator; Grand Prize winner, Sapporo Sugoi AI Film Festival 2026 Spring & 2026 Summer',
+            'judge5-comment': 'I\'ve joined as a judge to help make the festival even more exciting!<br>I believe the Sapporo Sugoi AI Film Festival is a "festival of the soul."<br>I can\'t wait to meet many wonderful works and creators filled with passion, love and messages — works that let you say, "This is me!"',
             // CTA
             'cta-title': 'Your AI film,<br>on the big screen',
             'cta-desc': 'Everyone is welcome, from beginners to experienced creators.<br>Take on the challenge in Sapporo.',
@@ -292,7 +295,7 @@
             'award3-desc': '由每位评委从全部作品中，选出最打动自己审美的作品授予此奖。',
             // Judges
             'sec-judges': '评委介绍',
-            'judges-desc': '除主办者AI武士外，还有4位创作者与工程师作为评委观赏大家的作品。',
+            'judges-desc': '除主办者AI武士外，还有创作者与工程师作为评委观赏大家的作品。',
             'judge1-name': 'Rina Onodera',
             'judge1-title': 'XR创作者',
             'judge1-comment': '这不是商业比赛，而是一场"祭典"。这里是能以自己的视角、全力表达内心呐喊的地方。AI会为这种表达带来怎样的可能性，我现在就已经迫不及待了。来吧，让我们办一场用灵魂对话的最棒的祭典！',
@@ -304,6 +307,9 @@
             'judge4-name': '工藤僚马（Bonjiko）',
             'judge4-title': '超赞AI会副代表',
             'judge4-comment': '从令人惊叹的创意，到贴近人心的故事，期待与各种作品相遇！在AI这一全新的表达方式中，大家一起开心地玩吧！',
+            'judge5-name': '赤狮子屋',
+            'judge5-title': 'AI视频创作者，札幌超赞AI电影节2026春季、2026夏季最佳作品奖得主',
+            'judge5-comment': '为了让电影节更加热闹，我以评委的身份加入了！<br>我认为札幌超赞AI电影节是一场"灵魂的电影节"。<br>非常期待遇见许多充满爱与信息、饱含炽热灵魂、能够自豪地说出"这就是我！"的精彩作品和创作者！',
             // CTA
             'cta-title': '让你的AI影像，<br>登上大银幕',
             'cta-desc': '无论新手还是老手，都热烈欢迎。<br>来札幌挑战一下吧。',
@@ -449,7 +455,7 @@
             'award3-desc': 'Chaque membre du jury choisit, parmi tous les films, celui qui a le plus touché sa propre sensibilité esthétique.',
             // Judges
             'sec-judges': 'Jury',
-            'judges-desc': 'Aux côtés de l’organisateur AI Samurai, quatre créateurs et ingénieurs regarderont vos films en tant que membres du jury.',
+            'judges-desc': 'Aux côtés de l’organisateur AI Samurai, des créateurs et ingénieurs regarderont vos films en tant que membres du jury.',
             'judge1-name': 'Rina Onodera',
             'judge1-title': 'Créatrice XR',
             'judge1-comment': 'Ce n’est pas un concours business — c’est une fête. Un lieu où vous pouvez exprimer le cri de votre âme à pleine puissance, depuis votre propre point de vue. J’ai hâte de voir quelles possibilités l’IA apporte à cette expression. Faisons-en la meilleure des fêtes, où les âmes se parlent !',
@@ -461,6 +467,9 @@
             'judge4-name': 'Ryoma Kudo (Bonjiko)',
             'judge4-title': 'Vice-président de Sugoi AI-kai',
             'judge4-comment': 'Des idées étonnantes aux histoires qui touchent le cœur — j’ai hâte de rencontrer des œuvres de toutes sortes ! Amusons-nous ensemble avec cette nouvelle forme d’expression qu’est l’IA !',
+            'judge5-name': 'Akajishiya',
+            'judge5-title': 'Créateur de vidéos IA ; Grand Prix du Sapporo Sugoi AI Film Festival 2026 Printemps et 2026 Été',
+            'judge5-comment': 'J’ai rejoint le jury pour rendre le festival encore plus vivant !<br>Pour moi, le Sapporo Sugoi AI Film Festival est un « festival de l’âme ».<br>J’ai hâte de rencontrer de nombreuses œuvres et créateurs pleins de passion, d’amour et de messages — des œuvres qui disent « Voilà qui je suis ! »',
             // CTA
             'cta-title': 'Votre film IA,<br>sur grand écran',
             'cta-desc': 'Tout le monde est le bienvenu, des débutants aux créateurs expérimentés.<br>Relevez le défi à Sapporo.',
@@ -606,7 +615,7 @@
             'award3-desc': 'Jedes Jurymitglied wählt aus allen Filmen denjenigen aus, der sein eigenes ästhetisches Empfinden am stärksten getroffen hat.',
             // Judges
             'sec-judges': 'Jury',
-            'judges-desc': 'Neben Veranstalter AI Samurai sehen sich vier Creators und Engineers eure Filme als Jury an.',
+            'judges-desc': 'Neben Veranstalter AI Samurai sehen sich Creators und Engineers eure Filme als Jury an.',
             'judge1-name': 'Rina Onodera',
             'judge1-title': 'XR-Creatorin',
             'judge1-comment': 'Das ist kein Business-Wettbewerb – das ist ein Fest. Ein Ort, an dem du den Schrei deiner Seele mit voller Kraft und aus deiner eigenen Perspektive ausdrücken kannst. Ich kann es kaum erwarten zu sehen, welche Möglichkeiten KI diesem Ausdruck eröffnet. Machen wir daraus das beste Fest, bei dem Seelen miteinander sprechen!',
@@ -618,6 +627,9 @@
             'judge4-name': 'Ryoma Kudo (Bonjiko)',
             'judge4-title': 'Stellvertretender Leiter von Sugoi AI-kai',
             'judge4-comment': 'Von verblüffenden Ideen bis zu Geschichten, die das Herz berühren – ich freue mich auf Werke aller Art! Lasst uns gemeinsam Spaß haben mit dieser neuen Ausdrucksform namens KI!',
+            'judge5-name': 'Akajishiya',
+            'judge5-title': 'KI-Video-Creator; Gewinner des Hauptpreises beim Sapporo Sugoi AI Film Festival 2026 Frühjahr und 2026 Sommer',
+            'judge5-comment': 'Ich bin als Jurymitglied dabei, um das Festival noch lebendiger zu machen!<br>Für mich ist das Sapporo Sugoi AI Film Festival ein „Festival der Seele“.<br>Ich freue mich darauf, viele großartige Werke und Kreative voller Leidenschaft, Liebe und Botschaften zu treffen – Werke, die sagen: „Das bin ich!“',
             // CTA
             'cta-title': 'Dein KI-Film,<br>auf der großen Leinwand',
             'cta-desc': 'Alle sind willkommen, von Anfängern bis zu erfahrenen Creators.<br>Stell dich der Herausforderung in Sapporo.',
